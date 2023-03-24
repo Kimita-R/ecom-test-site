@@ -1,0 +1,42 @@
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: black !important;
+    border: 2px solid black !important;
+    width: 150px !important;
+}
+
+.btn-primary:hover {
+    background-color:#ECEFF1 !important; 
+    color: black !important;  
+    border: 2px solid #555 !important;
+    box-shadow: 0px 0px 5px 2.5px #CCC !important;
+}   
+
+
+.card {
+    border-radius: 32px !important;
+}
+
+.card .image-container img{
+    width:100% !important;
+    border-radius: 32px 32px 0px 0px !important
+    
+}
+.card .image-container:hover .image1 {
+    display:none !important;
+}
+
+.card .image-container .image2 {
+    display: none !important;
+}
+
+.card .image-container:hover .image2 {
+    display: block !important;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+#footer {
+    background-color:#EEE;
+}
